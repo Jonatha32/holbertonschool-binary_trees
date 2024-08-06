@@ -1,6 +1,6 @@
 #include "binary_trees.h"
 /**
- * binary_tree_is_root
+ * binary_tree_is_root - binary tree is root
  * @node: parameter
  * Return: 1 or 0
  */

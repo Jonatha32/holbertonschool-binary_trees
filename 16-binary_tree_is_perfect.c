@@ -37,6 +37,7 @@ return (b + 1);
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
 	size_t height, size, expected_size;
+
 	if (tree == NULL)
 		return (0);
 	height = binary_tree_height(tree);
@@ -45,6 +46,6 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 
 	if (size == expected_size)
 		return (1);
-	else 
+	else
 		return (0);
 }
